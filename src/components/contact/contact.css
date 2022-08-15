@@ -1,0 +1,150 @@
+.c {
+    height: 100vh;
+    background-color: #041c32;
+    color: white;
+    position: relative;
+}
+
+.c-bg {
+    width: 10px;
+    height: 100%;
+    background-color: #064663;
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.c-title {
+    font-size: 60px;
+    width: 80%;
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+
+.c-desc {
+    font-weight: 300;
+}
+
+a {
+    /* text-transform: none; */
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #ecb365;
+    background-color: transparent;
+    margin: 10px 0px;
+    padding-left: 10px;
+    color: white;
+}
+
+input::placeholder, textarea::placeholder {
+    font-weight: 300;
+    color: white;
+}
+
+textarea {
+    background-color: transparent;
+    border: 1px solid #ecb365;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0px;
+    padding-left: 10px;
+    color: white;
+}
+
+.c-button {
+    background-color: #ecb365;
+    padding: 15px;
+    color: #041c32;
+    cursor: pointer;
+}
+
+.swal-modal {
+    background-color: #064663;
+    color: white;
+}
+
+.swal-button {
+    background-color: #ecb365;
+    color: #041c32;
+    border: none;
+}
+
+.swal-button:hover {
+    background-color: #041c32 !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+       flex-direction: column;
+       padding: 0px 50px;
+    }
+
+    .c-title {
+        font-size: 30px;
+    }
+
+    .c-desc, .c-title {
+        margin-top: 10px;
+    }
+
+    .c-info-item {
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    form {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+        widows: 35%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0px;
+    }
+
+    .c-button {
+        padding-top: 10px;
+    }
+
+}
