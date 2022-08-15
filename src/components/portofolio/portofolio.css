@@ -84,7 +84,7 @@
     .p-img {
         display: block;
         width: 100%;
-        height: 143px;
+        height: 88%;
         transition: .5s ease;
         backface-visibility: hidden;
     }

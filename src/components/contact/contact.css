@@ -38,6 +38,7 @@
 .c-title {
     font-size: 60px;
     width: 80%;
+    color: #064663;
 }
 
 .c-info-item {
@@ -46,6 +47,7 @@
     margin: 50px 0px;
     font-weight: 300;
     width: 70%;
+    font-size: 14px;
 }
 
 .c-desc {
@@ -128,6 +130,7 @@ textarea {
     .c-info-item {
         margin: 20px 0px;
         width: 100%;
+        font-weight: 300;
     }
 
     form {
@@ -145,6 +148,16 @@ textarea {
 
     .c-button {
         padding-top: 10px;
+    }
+
+    .c-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+
+    input {
+        border-radius: 0px;
     }
 
 }
