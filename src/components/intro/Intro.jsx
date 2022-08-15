@@ -25,15 +25,13 @@ const Intro = () => {
             <div className="i-title-wrapper">
               <div className="i-title-item">Frontend Engineer </div>
             </div>
-            <br />
-            <br />
           </div>
           <p className="i-description">
             An individual who likes and is passionate about working in IT,<br />
             especially Frontend development and UI Design.
           </p>
           <div className="i-btn">
-            <button className="i-btn-contact" href="#contact">Contact Me</button>
+            {/* <button className="i-btn-contact" href="#contact">Contact Me</button> */}
             <button className="i-btn-download" onClick={downloadCV}>Download CV</button>
           </div>
         </div>

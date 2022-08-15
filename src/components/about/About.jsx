@@ -25,14 +25,12 @@ const About = () => {
           a good UI design for mobile or web apps, starting from wireframe into
           real design.
         </p>
-        <br />
-        <br />
         <div className="a-expr">
           <div className="a-expr-job left">
             <img src={Bag} alt="" className="a-bag-icon" />
           </div>
           <div className="a-expr-job right">
-            <h3 className="a-title">Work Experience</h3>
+            <h3 className="a-title-exp">Work Experience</h3>
           </div>
         </div>
         <div className="a-divider">
@@ -43,7 +41,7 @@ const About = () => {
             <img src={Alterra} alt="" className="a-bag-icon" />
           </div>
           <div className="a-expr-job right">
-            <p className="a-sub">Alterra Indonesia</p>
+            <p className="a-sub-exp">Alterra Indonesia</p>
           </div>
         </div>
         <div className="a-expr-list">
@@ -54,12 +52,10 @@ const About = () => {
               <p>
                 <small className="orange-text">Apr 2019 - Present</small>
               </p>
-              <p>
-                <small>
+              <p className="a-list-desc">
                   Build, maintain and optimize web apps like a dashboard admin, PWA apps, and handle API
                   Integration. Convert mockup from UI/UX design into interactive
                   web using NodeJS, Vue, React & Next with JS or Typescript.
-                </small>
               </p>
               {/* <br /> */}
             </li>
