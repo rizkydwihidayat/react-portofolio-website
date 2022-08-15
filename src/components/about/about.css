@@ -41,8 +41,8 @@
   border-radius: 30px;
 }
 
-small {
-    font-weight: 300;
+.orange-text {
+    font-weight: bold;
 }
 
 .a-sub,
