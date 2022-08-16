@@ -120,7 +120,6 @@
   .a {
      flex-direction: column;
      text-align: center;
-     /* margin-top: 50px; */
   }
 
   .a-sub, .a-desc, a-list-desc {
@@ -134,7 +133,6 @@
   .a-card {
     height: 15vh;
     margin-top: 10px;
-    /* display: none; */
   }
 
   .a-img {
