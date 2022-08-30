@@ -1,5 +1,7 @@
 <p align="center">
   <h1 align="center">Portofolio Website</h1>
+  <span>Hi, I'm Rizky Dwi Hidayat. <br />This is my personal website, you can contact me, or check my portofolio on this page. <br />Thank you everyone :)</span>
+
 </p>
 
 ## Built With
@@ -21,27 +23,23 @@
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/rizkydwihidayat/react-portofolio-website.git
-   ```
-2. Install NPM packages
-   ```sh
-   yarn install
-   ```
-3. Run the development server:
+- Clone the repo
+  ```sh
+  git clone https://github.com/rizkydwihidayat/react-portofolio-website.git
+  ```
+- Install NPM packages
+  ```sh
+  yarn install
+  ```
+- Run the development server:
+  ```bash
+  #npm run dev
+  nvm use 16.10.0
+  # or
+  yarn dev
+  ```
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-   ```bash
-   #npm run dev
-   nvm use 16.10.0
-   # or
-   yarn dev
-   ```
+## Demo
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Documentations
-
-- [Development style guides](docs/style-guide.md)
-
-- [Project Structure](docs/folder-structure.md)
+https://rdhida.com/
