@@ -1,6 +1,5 @@
 <p align="center">
   <h1 align="center">Portofolio Website</h1>
-  <span align="center">Hi, I'm Rizky Dwi Hidayat. <br />This is my personal website, you can contact me, or check my portofolio on this page. <br />Thank you everyone :)</span>
 </p>
 
 ## Built With
